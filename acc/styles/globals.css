@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Playfair Display';
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+.main_container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 810px) {
+  .main_container {
+    width: 100%;
+  }
+}
+
+.modal_close_btn {
+  position: absolute !important;
+  right: 20px !important;
+  top: 20px;
+}
+
+.indicator-item.active {
+  background: #33333390 !important;
+}
+
+.indicator-item {
+  width: 12px !important;
+  height: 12px !important;
+  background: silver;
+}
+
+.carousel_container {
+  position: relative;
+}
+
+.carousel_prev_next {
+  position: absolute;
+  top: 47%;
+  cursor: pointer;
+}
+
+.carousel_previous_btn {
+  left: 0;
+}
+
+.carousel_next_btn {
+  right: 0;
+}
+/*# sourceMappingURL=globals.css.map */

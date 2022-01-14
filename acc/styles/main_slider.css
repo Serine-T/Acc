@@ -1,0 +1,28 @@
+.main_carousel_item {
+  border: 1px solid #353535;
+  position: relative;
+  width: 100% !important;
+  padding-top: 60%;
+}
+
+.main_carousel_image_container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.main_carousel_image_container img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media screen and (max-width: 1300px) {
+  .main_carousel_image_container {
+    min-height: 400px;
+  }
+}
+/*# sourceMappingURL=main_slider.css.map */
